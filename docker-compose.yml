@@ -1,0 +1,9 @@
+version: '3'
+services:
+  fluree:
+    image: fluree/ledger:2.0.4
+    container_name: fluree
+    networks:
+      - default
+    ports:
+      - '8090:8090'
